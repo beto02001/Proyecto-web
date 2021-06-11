@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+/*Menu de navegacion*/
+nav{
+    background-color: #e61c4b;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 2;
+}
+
+.barra{
+    list-style: none;  
+}
+
+.barra li {
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.barra li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1.2em 2.1em;
+    display: inline-block;
+    margin: 0px;
+}
+
+.barra li a:hover{
+    background-color: #fa3261;
+}
+
+.actual {
+    background-color: #fa3261;
+}
+
+.actual a{
+    text-decoration: line-through;
+}
+/*Fin barra navegadora*/
+
+
+/*Foto de fondo*/
+.principal{
+    background: url('../img/fondo.jpeg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 7rem 6rem;
+}
+
+.principal h1{
+    display: flex;
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+.principal p{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+/*Foto de fondo*/
+
+
+/*Quienes somos*/
+.quienes-somos{
+    padding: 2rem 4rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.quienes-somos h2{
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.quienes-somos p,h2{
+    text-align: justify;
+    color: #EC4067;
+}
+
+.quienes-somos p{
+    display: inline-block;
+    margin: 1.3rem 0rem 1rem 5rem;
+    color: black;  
+    font-size: 1.3rem;
+}
+/*Quienes somos*/
+
+
+.galeria{
+    width: 100%;
+    background-color: #EC4067;
+}
+
+.galeria h2{
+    display: block;
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.galeria  img{
+    vertical-align: top;
+    width: 16rem;
+    margin: 1.1rem 1.3rem 2.2rem 1.7rem;
+    padding: 5px;
+    border: 1px solid #484848;
+    opacity: .6;
+}
+
+.galeria img:hover{
+    opacity: 1;
+    border: 1px solid whitesmoke;
+}
+
+
+/*Pie de página*/
+.pie{
+    display: flex;
+    width: 100%;
+    background: #211103;
+    justify-content: space-around;
+}
+
+/*Izquierda*/
+.izquierda ul{
+    list-style: none;
+}
+
+.izquierda li a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*Izquierda*/
+
+/*Central*/
+.central .tel-contacto, .tel-whats{
+    width: 100%;
+    margin: 2.5rem .5rem;
+}
+
+.central img{
+    width: 1.1rem;
+}
+
+.central p{
+    display: inline-block;
+}
+/*Central*/
+
+
+/*Derecha*/
+.derecha img{
+    width: 1.1rem;
+}
+
+.derecha p{
+    display: inline-block;
+}
+
+.derecha .siguenos{
+    margin-top: 1.3rem;
+}
+
+.derecha .insta{
+    margin-top: 2rem;
+}
+
+.derecha .face{
+    margin-top: 2rem;
+}
+/*Derecha*/
