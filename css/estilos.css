@@ -12,11 +12,16 @@ nav{
     padding: 0;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     position: fixed;
     z-index: 2;
+    
 }
 
+.barra .imagen{
+    display: flex;
+    flex-direction: row;
+}
 .barra{
     list-style: none;  
 }
