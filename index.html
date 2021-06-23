@@ -16,6 +16,7 @@
         <a href="https://www.instagram.com/meili_sbmx/">Intagram</a>
         <a  href="https://api.whatsapp.com/send?phone=525617230129&text=hola,%20quiero%20cotizar%20contigo%20un%20producto%20">WhatsApp</a>
       </div>
+
     <header>
         <nav class="navegacion">
 
@@ -46,13 +47,13 @@
                     <input type="password" placeholder="Contraseña" name="psw" required>
 
                     <button type="submit" class="btn">Ingresar</button>
-                    <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
+                    <button type="button" class="btn cancel" onclick="closeForm(); carga_sonido()"  >Cerrar</button>
                 </form>
             </div>
 
         </nav>
     </header>
-
+    <main>
     <section class="principal">
         <h1>Women by Women</h1>
         <br>
@@ -75,7 +76,11 @@
         <img src="img/producto3.png" alt="">
         <img src="img/producto4.png" alt="">
     </section>
-
+    <audio controls autoplay>
+        <source src="media/hit.mp3" type="audio/ogg">
+        <source src="media/hit.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
     <footer class="pie">
         <div class="izquierda">
             <ul>
@@ -122,7 +127,10 @@
                 </a>
             </div>
         </div>
+    </main>
     </footer>
 </body>
+<script src="scripts/login-form.js"></script>
+<script src="scripts/audio.js"></script>
 
 </html>
