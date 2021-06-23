@@ -109,6 +109,11 @@ width: 50px; height: 50px;
         opacity: .7; /*Transparencia de botones*/
       }
       
+        /* Necessario para que el boton sea rojo */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
 /*Foto de fondo*/
 .principal{
     background: url('../img/fondo.jpeg');
