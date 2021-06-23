@@ -243,7 +243,29 @@ nav{
 }
 /*Central*/
 
-
+/*Barra lateral*/
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 140px;
+    right: 10px;
+    background: rgb(82, 2, 64);
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e221f3;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
 /*Derecha*/
 .derecha img{
     width: 1.1rem;
