@@ -51,6 +51,17 @@ nav{
 .actual a{
     text-decoration: line-through;
 }
+.open-button {
+    background-color: #fa3261;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer; 
+    bottom: 10px;
+    right: 28px;
+    width: 150px;
+  }
+  
 /*Fin barra navegadora*/
 
 
