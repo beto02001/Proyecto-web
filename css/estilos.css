@@ -83,6 +83,15 @@ width: 50px; height: 50px;
         background-color: #fa3261;
         opacity: .95;
       }
+        /* Rellena cuadro de login */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #a8106e;
+  }
+  
       
 /*Foto de fondo*/
 .principal{
