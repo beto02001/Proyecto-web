@@ -113,6 +113,12 @@ width: 50px; height: 50px;
   .form-container .cancel {
     background-color: red;
   }
+    /* Efectos aa los botones al pasar por encima */
+    .form-container .btn:hover, .open-button:hover {
+        opacity: .3;
+      }
+    /*Fin barra navegadora*/
+    
   
 /*Foto de fondo*/
 .principal{
