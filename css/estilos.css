@@ -18,6 +18,9 @@ nav{
     
 }
 
+.navegacion .navbar-logo{
+width: 50px; height: 50px;
+}
 .navbar-principal {
     display: flex;
     flex-direction: row;
@@ -51,6 +54,9 @@ nav{
 .actual a{
     text-decoration: line-through;
 }
+
+/*Partee de boton de login*/
+
 .open-button {
     background-color: #fa3261;
     color: white;
@@ -61,9 +67,6 @@ nav{
     right: 28px;
     width: 150px;
   }
-  
-/*Fin barra navegadora*/
-
 
 /*Foto de fondo*/
 .principal{

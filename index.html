@@ -1,30 +1,47 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="css/estilos.css">
     <title>MeiliSBMX</title>
 </head>
+
 <body>
     <header>
-        <nav class="navegacion">
+        <nav class="nave">
             <a class="navbar-logo" href="index.html">
                 <li> <img src="img/logo.png" width="100" height="100" alt="logo"></li>
             </a>
             <ul class="barra">
-                    <li><a href="#" class="actual">Inicio</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Preguntas</a></li>
-                    <li><a href="#">Mensaje</a></li>
-                    <li> </li>
+                <li><a href="#" class="actual">Inicio</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Preguntas</a></li>
+                <li><a href="#">Mensaje</a></li>
+                <li> </li>
             </ul>
             <button class="open-button" onclick="openForm()">
                 <li>Login</li>
             </button>
+            <div class="form-popup" id="myForm">
+                <form action="#" class="form-container"> <!--Enlazar con BD--> <!-- Por ejemplo /action_page.php-->
+                    <h1>Login</h1>
+
+                    <label for="email"><b>Nombre</b></label>
+                    <input type="text" placeholder="Usuario" name="user" required>
+
+                    <label for="psw"><b>Contraseña</b></label>
+                    <input type="password" placeholder="Contraseña" name="psw" required>
+
+                    <button type="submit" class="btn">Ingresar</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
+                </form>
+            </div>
+
         </nav>
     </header>
 
@@ -38,16 +55,18 @@
     <section class="quienes-somos">
         <h2>¿Quiénes somos?</h2>
         <br>
-        <p>Somos la tercer smoke Boutique en México, pero la primera en estaar creada, diseñada y dirigda para la industra de las mujeres.</p><br>
-        <p>Entendemos y atendemos sus necesidades, porque nos gusta fumara fumar bonito mientras dedicamos tiempo para consentirnos huntando una mascarilla o humectando nuestros labios, y obvio, gastar lo justo.</p>
+        <p>Somos la tercer smoke Boutique en México, pero la primera en estaar creada, diseñada y dirigda para la
+            industra de las mujeres.</p><br>
+        <p>Entendemos y atendemos sus necesidades, porque nos gusta fumara fumar bonito mientras dedicamos tiempo para
+            consentirnos huntando una mascarilla o humectando nuestros labios, y obvio, gastar lo justo.</p>
     </section>
 
     <section class="galeria">
         <h2>Galeria</h2>
-            <img src="img/producto1.png" alt="">
-            <img src="img/producto2.png" alt="">
-            <img src="img/producto3.png" alt="">
-            <img src="img/producto4.png" alt="">
+        <img src="img/producto1.png" alt="">
+        <img src="img/producto2.png" alt="">
+        <img src="img/producto3.png" alt="">
+        <img src="img/producto4.png" alt="">
     </section>
 
     <footer class="pie">
@@ -63,13 +82,13 @@
         <div class="central">
             <div class="tel-contacto">
                 <h4>Teléfono de contacto:</h4>
-            <p>55 5555 5555</p>
+                <p>55 5555 5555</p>
             </div>
 
             <div class="tel-whats">
                 <h4>WhatsApp:</h4>
-            <img src="img/whatsapp.png" alt="" class="footer-imagenes">
-            <p>55 5555 5555</p>
+                <img src="img/whatsapp.png" alt="" class="footer-imagenes">
+                <p>55 5555 5555</p>
             </div>
         </div>
 
@@ -80,9 +99,11 @@
             <nav class="insta">
                 <h4>Instagram</h4>
                 <img src="img/instagram.png" alt="logo instragram">
-                <a href="https://www.instagram.com/meili_sbmx/"><p> @meili_sbmx</p></a>
+                <a href="https://www.instagram.com/meili_sbmx/">
+                    <p> @meili_sbmx</p>
+                </a>
             </nav>
-            
+
             <nav class="face">
                 <h4>Facebook</h4>
                 <img src="img/facebook.png" alt="logo facebook">
@@ -90,5 +111,7 @@
             </nav>
         </div>
     </footer>
+    <script src="scripts/login-form.js"></script>
 </body>
+
 </html>
