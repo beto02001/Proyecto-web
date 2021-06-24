@@ -15,7 +15,7 @@ nav{
     justify-content: space-evenly;
     position: fixed;
     z-index: 2;
-    
+
 }
 .navegacion .navbar-logo img{
      width: 70px; height: 70px;
@@ -27,7 +27,7 @@ nav{
     flex-direction: row;
 }
 .barra{
-    list-style: none; 
+    list-style: none;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -66,7 +66,7 @@ nav{
     color: white;
     padding: 16px 20px;
     border: none;
-    cursor: pointer; 
+    cursor: pointer;
     bottom: 10px;
     right: 28px;
     width: 150px;
@@ -96,7 +96,7 @@ nav{
     border: none;
     background: #a8106e;
   }
-  
+
         /* Cambia de color cuando escribes, la segunda parte es para que sea typo password, crea circulitos en lugar de texto*/
   .form-container input[type=text]:focus, .form-container input[type=password]:focus {
     background-color: rgb(58, 33, 33);
@@ -113,7 +113,7 @@ nav{
         margin-bottom:10px;
         opacity: .7; /*Transparencia de botones*/
       }
-      
+
         /* Necessario para que el boton sea rojo */
   .form-container .cancel {
     background-color: red;
@@ -123,8 +123,29 @@ nav{
         opacity: .3;
       }
     /*Fin barra navegadora*/
-    
-  
+
+/*Procesamiento de imagenes a nivel pixeles*/
+.canvas10
+{
+    background-color: black;
+    border: 5px solid #AAAAAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+
+
+}
+.canvas20
+{
+    background-color: #e61c4b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*Foto de fondo*/
 .principal{
     background: url('../img/fondo.jpeg');
@@ -133,6 +154,8 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+
+
     padding: 7rem 6rem;
 }
 
@@ -173,7 +196,7 @@ nav{
 .quienes-somos p{
     display: inline-block;
     margin: 1.3rem 0rem 1rem 5rem;
-    color: black;  
+    color: black;
     font-size: 1.3rem;
 }
 /*Quienes somos*/
@@ -254,7 +277,7 @@ nav{
     overflow-x: hidden;
     padding: 8px 0;
   }
-  
+
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -262,7 +285,7 @@ nav{
     color: #e221f3;
     display: block;
   }
-  
+
   .sidenav a:hover {
     color: #064579;
   }
